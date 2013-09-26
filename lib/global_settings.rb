@@ -1,5 +1,3 @@
-# We can replace this module methods by the proper values in case we decide to
-# move client to the separate node to serve the client only things.
 module GlobalSettings
   def self.root
     File.expand_path('../..', __FILE__)
